@@ -27,12 +27,12 @@ Copy the content of 1.txt file to copy.txt using write function
 Program for copying the contents from one file to another file
 Developed by: Sanjay.M
 RegisterNumber: 212222240090
-
+```
 with open("text1.txt",'r') as fp:
     msg1=fp.read()
 with open("copytxt",'w') as fp1:
     fp1.write(msg1)
-
+```
 ### OUTPUT:
 
 ![image](https://github.com/Sanjay22006832/copy-file/assets/119830477/bbdae8b1-447c-4290-9652-b28e705dc2c9)
